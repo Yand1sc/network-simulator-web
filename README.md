@@ -1,16 +1,58 @@
-# React + Vite
+# Network Simulator Web (NetSim Web)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+NetSim Web is a **frontend-only web application** for simulating computer network topologies and basic network behavior.  
+This project is intended for **educational, academic, and demonstration purposes**, allowing users to visually design networks and simulate connectivity directly in the browser.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## React Compiler
+- Visual network topology builder (drag & drop)
+- Add and configure network devices (PC, router, etc.)
+- IP address and gateway configuration
+- Basic connectivity simulation (ping)
+- Simple firewall rule simulation (client-side)
+- Auto-save topology using browser localStorage
+- Export and import topology as JSON files
+- Clean and responsive user interface
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🔐 Authentication Notice (Important)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> ⚠️ **This application does NOT implement real authentication.**
+
+- The login screen is **mock / demo only**
+- No backend server, database, or API is used
+- Any username and password combination is accepted
+- Credentials are **not validated, stored, or transmitted**
+- Login exists purely for **UI and simulation flow purposes**
+
+This project **should not be used as a security reference**.
+
+---
+
+## 🧠 Technology Stack
+
+- React
+- Vite
+- React Flow
+- JavaScript (ES6+)
+- HTML & CSS
+- Client-side storage (localStorage)
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v18 or newer recommended)
+- npm
+
+### Installation & Run
+
+```bash
+git clone https://github.com/Yand1sc/network-simulator-web.git
+cd network-simulator-web
+npm install
+npm run dev
