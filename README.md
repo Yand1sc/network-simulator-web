@@ -56,3 +56,5 @@ git clone https://github.com/Yand1sc/network-simulator-web.git
 cd network-simulator-web
 npm install
 npm run dev
+
+Open your browser at: http://localhost:5173
